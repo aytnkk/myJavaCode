@@ -1,6 +1,6 @@
 package day00_ahmetHocaDersleri.simpleQuestions;
 
-public class SQ_TekarSayi {
+public class SQ17_TekarSayi {
     public static void main(String[] args) {
 
         /*
