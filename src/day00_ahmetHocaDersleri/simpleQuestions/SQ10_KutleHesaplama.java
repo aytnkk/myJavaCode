@@ -21,7 +21,7 @@ public class SQ10_KutleHesaplama {
 		 Ağırlık : 71
 		 Yükseklik : 1,72
 		ÇIKTI : VKİ değeriniz : 23.99945916711736 Kilonuz ideal (edited)
-		ayten kok
+		ayten kok adem
 
               */
 
