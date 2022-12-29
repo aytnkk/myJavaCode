@@ -1,9 +1,9 @@
 package day24_StringBuilder;
-public class D {
+public  class D {
 
-    private String isim="Mustafa";
-    String isimDefault="Furkan";
-    static String isimDefaultStatic="Sevilay";
+    public String isim="Mustafa";
+    public String isimDefault="Furkan";
+    public static String isimDefaultStatic="Sevilay";
 
     public static void main(String[] args) {
         // System.out.println(isim); static olmadigindan, static main method icinde direk kullanilamaz
@@ -16,10 +16,10 @@ public class D {
         isim= "Huseyin";
         System.out.println(isim);
     }
-    void defaultStaticOlmayanMethod(){
+    public void defaultStaticOlmayanMethod(){
         System.out.println("default access modifier'li static olmayan method calisti");
     }
-    static void defaultStaticMethod(){
+    public static void defaultStaticMethod(){
         System.out.println("default access modifier'li static method calisti");
     }
     private static void staticMethod(){

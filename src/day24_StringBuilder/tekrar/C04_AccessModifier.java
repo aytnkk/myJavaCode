@@ -1,13 +1,13 @@
-package day24_StringBuilder;
+package day24_StringBuilder.tekrar;
+
+import day24_StringBuilder.D;
+
 public class C04_AccessModifier {
 
     String str;
-    // Access modifier'i gozlerimizle goremiyorsa
-    // default access modifier var demektir
-    // Bu class'da default constructor var
-    // str'in degeri null (default deger)
-    // str'in access modifier'i default access modifier
+
     public static void main(String[] args) {
+
 
         D obj1= new D();
 
@@ -23,10 +23,15 @@ public class C04_AccessModifier {
 
 
         System.out.println(obj1.isimDefaultStatic); // Sevilay
+
         System.out.println(D.isimDefaultStatic);// Sevilay
+
         D.isimDefaultStatic="Mehmet";
+
         obj1.defaultStaticMethod();
         D.defaultStaticMethod();
         // default access modifier'li static method calisti
+
     }
+
 }

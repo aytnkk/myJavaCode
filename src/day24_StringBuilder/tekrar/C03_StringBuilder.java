@@ -1,7 +1,7 @@
-package day24_StringBuilder;
+package day24_StringBuilder.tekrar;
+
 public class C03_StringBuilder {
     public static void main(String[] args) {
-
 
         StringBuilder sb1 = new StringBuilder("Java");
         StringBuilder sb2 = new StringBuilder("Java");
@@ -33,4 +33,6 @@ public class C03_StringBuilder {
         // compareTo SB'lar arasinda calisir, farkli data turu kabul etmez
 
     }
-}
+
+    }
+
