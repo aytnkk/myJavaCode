@@ -17,26 +17,32 @@ public class C07_Modulus {
            kullanici 3426 girdi
          */
         int girilenSayi=3426;
+
         int birlerBasamagi= girilenSayi % 10; // 6
         System.out.println("birler basamagi : " + birlerBasamagi);
 
         girilenSayi= girilenSayi/10;
         System.out.println(girilenSayi); // 342
-        birlerBasamagi= girilenSayi % 10; // 6
+
+        birlerBasamagi= girilenSayi % 10; // 2
         System.out.println("birler basamagi : " + birlerBasamagi);
 
         girilenSayi= girilenSayi/10;
-        System.out.println(girilenSayi); // 342
-        birlerBasamagi= girilenSayi % 10; // 6
+        System.out.println(girilenSayi); // 34
+
+        birlerBasamagi= girilenSayi % 10; // 4
 
         System.out.println("birler basamagi : " + birlerBasamagi);
-        girilenSayi= girilenSayi/10;
-        System.out.println(girilenSayi); // 342
 
-        birlerBasamagi= girilenSayi % 10; // 6
-        System.out.println("birler basamagi : " + birlerBasamagi);
         girilenSayi= girilenSayi/10;
-        System.out.println(girilenSayi); // 342
+        System.out.println(girilenSayi); // 3
+
+        birlerBasamagi= girilenSayi % 10; // 3
+        System.out.println("birler basamagi : " + birlerBasamagi);
+
+        girilenSayi= girilenSayi/10;
+        System.out.println(girilenSayi); // 0
+
 
 
     }
