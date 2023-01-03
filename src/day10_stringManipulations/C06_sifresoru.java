@@ -9,7 +9,7 @@ public class C06_sifresoru {
        eger tum sartlari saglarsa, “sifre basariyla kaydedildi” yazdirin
          - ilk harf kucuk harf olmali
         - son karakter rakam olmali
-                - sifre bosluk icermemeli
+        - sifre bosluk icermemeli
         - uzunlugu en az 10 karakter olmali
 
          */
@@ -19,21 +19,22 @@ public class C06_sifresoru {
         Bu soruda sartlari bagimsiz if cumlesi ile yapmak
         veya if else ile yapmak mumkundur
         Eger if else ile yaparsak ilk hatayi yazdirir
-        greriye kalanlara bakmaz
+        geriye kalanlara bakmaz
         avantaji ise hata yoksa otomatik olarak basarili sekilde olusturuldu diyebilir.
 
-        Bagimsiz if cumlllerinde tum hatalari bir kere de soyleyebiliriz.
+        Bagimsiz if cumlelerinde tum hatalari bir kere de soyleyebiliriz.
         ancak bagimsiz if cumleleri kodun geriye kalaniyla ilgilenmediginden
         basarili sifre olusturuldugunu bizim ayri mekanizma ile konrol etmemiz gerekir
          */
 
         /*
         Sonucta basarili sifre olusturuldu demek icin bir kontrol mekanizmasi olusturmamiz gerekir
-        ya her adimda arttriracagimiz bir sayac yapip en son 4 oldu ise basarili deriz
+        ya her adimda arttiracagimiz bir sayac yapip en son 4 oldu ise basarili deriz
         veya basta verdigimiz deger olumsuz bir durum oldugunda arttirilir
         en sonda kontrol edip eger bastaki degeri hala koruyorsa basarili olmustur diyebiliriz
 
          */
+
         int flag=0;
 
 
@@ -46,7 +47,6 @@ public class C06_sifresoru {
         }
         //- son karakter rakam olmali
         if (!(sifre.charAt(sifre.length()-1)>='0' && sifre.charAt(sifre.length()-1)<='9')){
-
 
             // son rakam rakam degilse rapor yazdir
             System.out.println("son karakter rakam olmali");

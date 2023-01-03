@@ -28,6 +28,7 @@ public class C09_NestedIfElse {
         if (cinsiyet == 'K' || cinsiyet == 'k') { // Kadin olanlar icin bu bolum calisacak
 
             if (yas < 18 || yas > 80) System.out.println("gecersiz yas");
+
             else if (yas >= 60) System.out.println("Emekli olabilirsin");
             else System.out.println("emekli olmak icin " + (60 - yas) + " yil daha calismalisin");
 

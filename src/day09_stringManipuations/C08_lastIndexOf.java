@@ -6,7 +6,7 @@ public class C08_lastIndexOf {
         String str="Javayi iyi ogrenmek icin cok calismam lazim cok.";
 
 
-        // ilk a'nin indexini yazdrialim
+        // ilk a'nin indexini yazdiralim
 
         System.out.println(str.indexOf("a"));//1
 

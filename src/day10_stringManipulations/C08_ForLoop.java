@@ -9,10 +9,12 @@ public class C08_ForLoop {
         // "tum bu sayilarin toplami = " deyip sayilarin toplamini yazdirin
 
         int sayilarinToplami = 0;
+
         for (int i = 1; i <= 1000; i++) {
-            System.out.print(i + " ");
+             System.out.print(i + " ");
             // sayilarinToplami= sayilarinToplami+i;
             sayilarinToplami += i;
+            System.out.println(sayilarinToplami);
         }
     }
 }

@@ -31,13 +31,13 @@ public class C01_NullPointer {
         // System.out.println(str3.substring(3,4));
        /*
        java bir variable'yi olusturup deger atanmamasina izin verir
-       bir variableyi deger atamadan olusturabilirsiniz anvak kullanamazsiniz
+       bir variableyi deger atamadan olusturabilirsiniz ancak kullanamazsiniz
        deger atanmayan bir variabbleyi kullanmaya kalkarsaniz java cte verir
 
        null pointer ise bu variable'ye bir deger atanmadigini ve bunun bilincli bir
        tercih oldugunu java'ya soyler
-       dolayisiyla java kodlarin calismaya devam etmesine iziin verir
-       ancakk deger atanmadigi icin methodlarla kullanmaya calsiirsaniz hata verir
+       dolayisiyla java kodlarin calismaya devam etmesine izin verir
+       ancak deger atanmadigi icin methodlarla kullanmaya calisirsaniz hata verir
         */
 
         str4=null;

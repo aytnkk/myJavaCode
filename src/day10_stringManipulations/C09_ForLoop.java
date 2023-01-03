@@ -10,8 +10,10 @@ public class C09_ForLoop {
         Scanner scan = new Scanner(System.in);
         System.out.println("Baslangic degerini giriniz");
         int baslangic= scan.nextInt();
+
         System.out.println("Bitis degerini giriniz");
         int bitis= scan.nextInt();
+
         for (int i = baslangic; i <=bitis ; i++) {
             if (i%5==0){
                 System.out.print(i + " ");

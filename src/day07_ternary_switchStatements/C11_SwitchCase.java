@@ -4,7 +4,7 @@ public class C11_SwitchCase {
     public static void main(String[] args) {
 
        /*
-       Kullanicidan ISTQB kisaltmasindan harfin anlamini ogrenmek istedigini alin
+       Kullanicidan ISTQB kisaltmasindan harfin anlamini ogrenmek istediginizi alin
        ve girilen harfin karsiligini yazdirin.
 
       I : International S : Software T : Testing Q : Qualifications B: Board

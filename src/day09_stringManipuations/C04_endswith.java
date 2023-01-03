@@ -26,10 +26,13 @@ public class C04_endswith {
         Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen mailinizi giriniz");
         String girilenMail = scan.nextLine();
+
         if (!girilenMail.contains("@")) {
             System.out.println("gecersiz mail");
+
         } else if (!girilenMail.contains("@gmail.com")) {
             System.out.println("mail gmail olmali");
+
         } else if (!girilenMail.endsWith("@gmail.com")) {
             System.out.println("mailde yazim hatasi var");
 

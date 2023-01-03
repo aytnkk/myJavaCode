@@ -1,4 +1,4 @@
-package day07_ternary_switchStatements;
+package day11_forLoops;
 
 
 import java.util.Scanner;

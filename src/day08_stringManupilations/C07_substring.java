@@ -58,7 +58,7 @@ public class C07_substring {
         System.out.println(str.substring(str.length()));// 19 dan sonra hiclik var // hiclik yazdirir
         //System.out.println(str.charAt(str.length()));// error
         //System.out.println(str.substring(str.length()+1));// error
-        System.out.println("=================");
+
 
 
 

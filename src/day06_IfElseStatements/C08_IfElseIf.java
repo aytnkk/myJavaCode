@@ -27,12 +27,16 @@ public class C08_IfElseIf {
 
         if (kartVarmi=='E' && urunAdedi>10){
             System.out.println("%20 indirimli toplam fiyat :"+listeFiyati*0.8);
+
         } else if (kartVarmi=='E' &&  urunAdedi>0) {
             System.out.println("%15 indirimli toplam fiyat : " + urunAdedi*listeFiyati*0.85);
+
         } else if (kartVarmi=='H' && urunAdedi>10) {
             System.out.println("%15 indirimli toplam fiyat : " + urunAdedi*listeFiyati*0.85);
+
         } else if (kartVarmi=='H' && urunAdedi>0) {
             System.out.println("%10 indirimli toplam fiyat : " + urunAdedi*listeFiyati*0.9);
+
         }else{
             System.out.println("Hatali bilgi");
 

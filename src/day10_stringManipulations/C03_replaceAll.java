@@ -15,7 +15,7 @@ public class C03_replaceAll {
         eger genellemeyi  butun sayilari ,butun spaceleri, butun ozel karakterleri
         gibi genisletmek istersek replace() yerine replaceAll kullaniriz
         Java bu genellemeleri yazabilmemiz icin regex(regular expressions) tanimlanmistir
-        butun \\d: butun digitler
+        butun \\d: butun digitler:sayilar
          */
 
 

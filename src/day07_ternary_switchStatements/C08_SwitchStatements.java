@@ -5,7 +5,7 @@ public class C08_SwitchStatements {
 
         // kullanicidan iki sayi alin
         // ve kullaniciya istedigi islemi sorun
-        // +,- ,* ve / isaretlerinden  hangisni girerse
+        // +,- ,* ve / isaretlerinden  hangisini girerse
         // 2 sayi icin o islemi yapin
         // bu isaretlerden birini girmezse
         // "yanlis islem tercihi "yazdirin

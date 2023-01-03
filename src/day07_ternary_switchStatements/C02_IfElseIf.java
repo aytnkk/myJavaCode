@@ -19,7 +19,8 @@ public class C02_IfElseIf {
         System.out.println("Lutfen bir tamsayi giriniz");
         int girilenSayi=scan.nextInt();
 
-        if (girilenSayi<0) System.out.println("Negatif sayi");// kod en basta bunu calistirir o yuzden digerlerikarismaz
+        if (girilenSayi<0) System.out.println("Negatif sayi");
+        // kod en basta bunu calistirir o yuzden digerleri karismaz
         else if (girilenSayi<=9) System.out.println("Girilen sayi rakam");
         else if (girilenSayi<=99) System.out.println("Girilen sayi 2 basamakli");
         else System.out.println("Buyuk sayi");{

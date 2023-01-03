@@ -14,6 +14,7 @@ public class C05_IfElseIfStatemets {
         Scanner scan = new Scanner(System.in);
         System.out.println("Notunuzu giriniz");
         double not = scan.nextDouble();
+
         if (not < 0 || not > 100) {
             System.out.println("gecersiz not");
         } else if (not >= 85) {
