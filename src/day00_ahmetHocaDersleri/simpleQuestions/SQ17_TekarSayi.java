@@ -23,13 +23,25 @@ public class SQ17_TekarSayi {
          char tekrarKrkt='a';
         int sayac=0;
 
-        for (int i = 0; i <name.length() ; i++) {
+        for (int i = 1; i <name.length() ; i++) {
+           {
+                if (name.charAt(i)== (char)(tekrarKrkt)){
 
+                    sayac++;
+
+                }
+
+
+           }
+
+            System.out.println("tekrarlanan karakter sayisi=" +sayac);
+
+            }
 
             }
         }
 
-        }
+
 
 
 
