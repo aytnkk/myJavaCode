@@ -13,9 +13,6 @@ public class C06_ForLoop {
 
         */
 
-
-
-
         int input= 153;
         for (int i = 1; i <=input ; i++) {
 

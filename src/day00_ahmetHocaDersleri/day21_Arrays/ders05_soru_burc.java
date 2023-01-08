@@ -14,11 +14,11 @@ public class ders05_soru_burc {
 
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Lutfen dogum ayinizi ay adi olarak girin ornegin eylul");
+        System.out.println("Lutfen dogum ayinizi ay adi olarak girin : ornegin eylul");
 
         String ay = scan.next().toLowerCase();
 
-        System.out.println("Lutfen dogdugunuz gunu rakamsal olarak girin, tek rakamlar onune 0 koymayin");
+        System.out.println("Lutfen dogdugunuz gunu rakamsal olarak girin, tek rakamlarin onune 0 koymayin");
         int gun = scan.nextInt();
         System.out.println("Verdiginiz dogum tarihine gore burcunuz= " + burcum(ay, gun));
 

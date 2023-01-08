@@ -44,8 +44,8 @@ public class SQ40_BakkalSorusu {
 
         // 3. Adım: While döngüsü ile kullanıcıdan 7 günlük kazançları tek tek alıp gunlukKazanclar ArrayList'e ekle.
         Scanner sc = new Scanner(System.in);
-        int i = 0;
-        while (i < 7) {
+        int i = 1;
+        while (i <=7) {
             System.out.println(gunler.get(i) + " gününde kazancınızı giriniz: ");
             double kazanc = sc.nextDouble();
             gunlukKazanclar.add(kazanc);

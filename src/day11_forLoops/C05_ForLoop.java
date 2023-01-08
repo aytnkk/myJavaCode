@@ -10,6 +10,7 @@ public class C05_ForLoop {
 
          */
 
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen baslangic ve bitis degerleri icin 2 pozitif tamsayi giriniz");
         int baslangic = scan.nextInt();

@@ -8,8 +8,10 @@ public class C04_ForLoop {
         // islem yapilmaz
         // input olarak verilen sayidan bire kadar tum sayilari yazdirin
 
-        int input = 23;  // eger kullanicinin pozitif ve negatif girebilecegini ongorup
+        int input = 23;
+        // eger kullanicinin pozitif ve negatif girebilecegini ongorup
         // ona gore kod yazmazsak, loop body'sinin hic calismamasi durumu olabilir
+
         if (input > 1) {
             for (int i = input; i >= 1; i--) {
                 System.out.print(i + " ");

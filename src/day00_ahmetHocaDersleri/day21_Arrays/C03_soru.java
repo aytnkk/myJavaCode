@@ -1,4 +1,4 @@
-package day01_programlamayaGiris.SORULAR;
+package day00_ahmetHocaDersleri.day21_Arrays;
 
 import java.sql.SQLOutput;
 

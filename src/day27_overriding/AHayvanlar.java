@@ -5,16 +5,16 @@ public class AHayvanlar {
     protected void hareket( ) {
         System.out.println("hareket ederler");
     }
-    protected void solunum( ) {
+    public void solunum() {
         System.out.println("nefes alirlar");
     }
     protected void beslenme( ) {
         System.out.println("beslenirler");
     }
-    protected void cogalma( ){
+    public void cogalma(){
         System.out.println("cogalirlar");
     }
-    protected void omur( ){
+    public void omur(){
         System.out.println("yasar ve olurler");
     }
 

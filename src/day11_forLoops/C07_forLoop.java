@@ -2,6 +2,7 @@ package day11_forLoops;
 
 public class C07_forLoop {
     public static void main(String[] args) {
+
         //Soru 10 - Kullanicidan bir String isteyin ve String’i tersine cevirip kaydedin.
 
 

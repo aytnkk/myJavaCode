@@ -34,7 +34,7 @@ public class C20_ArtikYil {
 
                 switch (aySayisi){
                     case 2:
-                        if(yil%100!=0&& yil%4==0){
+                        if(yil%100!=0 && yil%4==0){
                             System.out.println("artik yil olmasi nedeniyle gun sayisi 29'dur ");
                             break;
                         } else if(yil%100==0 && yil%400==0){

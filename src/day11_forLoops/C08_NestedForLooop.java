@@ -6,6 +6,7 @@ public class C08_NestedForLooop {
         // verilen input'a gore carpim tablosu olusturun
         // Java'da ic ice yapilara nested denir
         // burada sadece farkli olan i'nin katsayisi oldugundan onun icin de bir loop olusturalim
+
         int input = 4 ;
         /*
              1 2  3  4
