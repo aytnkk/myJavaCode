@@ -1,7 +1,6 @@
 package day00_ahmetHocaDersleri.simpleQuestions;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -26,6 +25,10 @@ public class SQ40_BakkalSorusu {
         for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
                  ortalama kazançtan aşağıysa o günleri return yap.
          */
+
+
+    static Double ortalama;
+
     public static void main(String[] args) {
 
         // 1. Adım: Günleri içeren bir tane ArrayList oluşturun. (gunler)
@@ -43,48 +46,84 @@ public class SQ40_BakkalSorusu {
         ArrayList<Double> gunlukKazanclar = new ArrayList<>();
 
         // 3. Adım: While döngüsü ile kullanıcıdan 7 günlük kazançları tek tek alıp gunlukKazanclar ArrayList'e ekle.
-        Scanner sc = new Scanner(System.in);
-        int i = 1;
-        while (i <=7) {
+        Scanner scan = new Scanner(System.in);
+
+        int i = 0;
+        while (i<gunler.size()) {
             System.out.println(gunler.get(i) + " gününde kazancınızı giriniz: ");
-            double kazanc = sc.nextDouble();
+            double kazanc = scan.nextDouble();
             gunlukKazanclar.add(kazanc);
             i++;
         }
 
-        // 4. Adım: getOrtalamaKazanc() adlı method ile ortalama kazancı alın.
+        // 4. Adım: getOrtalamaKazanc() adlı method ile ortalama kazancı alın.getOrtalamaKazanc(gunlukKazanclar);
+        getOrtalamaKazanc(gunlukKazanclar);
 
+      //  5. Adım : getOrtalamaninUstundeKazancGünleri() adlı method oluşturun.
+        System.out.println("Ortalamanin ustundeki gunler : "
+                +getOrtalamaninUstundeKazancGunleri(gunler, gunlukKazanclar, ortalama));
 
-
-
-        // 5. Adım: getOrtalamaninUstundeKazancGünleri() adlı method oluşturun
-
-        String ortalamaninUstundeKazancGünleri = "";
-        System.out.println(Arrays.toString(ortalamaninUstundeKazancGünleri.toCharArray()));
-
-
-        //6. Adım : getOrtalamaninAltindaKazancGünleri() adlı method oluşturun.
+        // 6. Adım : getOrtalamaninAltindaKazancGünleri() adlı method oluşturun.
+        System.out.println("Ortalamanin altindaki gunler : "
+                +getOrtalamaninAltindaKazancGunleri(gunler, gunlukKazanclar, ortalama));
 
     }
 
+    private static void getOrtalamaKazanc(ArrayList<Double> gunlukKazanclar) {
+      double toplam=0;
 
-    public static String getOrtalamaninAltindaKazancGünleri(ArrayList<String> gunler, ArrayList<Double> gunlukKazanclar, double ortalamaKazanc) {
+        for (Double each:gunlukKazanclar){
+            toplam+=each;
+        }
+        ortalama=toplam/7;
 
-        String ortalamaninAltindaKazancGünleri = String.valueOf(new List[0]);
+        System.out.println("Haftalik ciro "+ toplam+" $ olup gunluk ortalama : "+ortalama);
 
-        for (int i = 0; i < gunler.size(); i++) {
-            if (gunler.size() < ortalamaKazanc) {
-                ortalamaninAltindaKazancGünleri = String.valueOf(gunler.size());
+
+
+    }
+
+    private static String getOrtalamaninAltindaKazancGunleri(ArrayList<String> gunler, ArrayList<Double> gunlukKazanclar, Double ortalama) {
+
+        List<String > ortlamaninAltindakiGunler=new ArrayList<>();
+
+        for (int i = 0; i < gunlukKazanclar.size(); i++) {
+
+            if (ortalama>gunlukKazanclar.get(i)){
+                ortlamaninAltindakiGunler.add(gunler.get(i));
             }
+
+        }
+        return ortlamaninAltindakiGunler.toString();
+
+
+    }
+
+    private static String getOrtalamaninUstundeKazancGunleri(ArrayList<String> gunler, ArrayList<Double> gunlukKazanclar, Double ortalama) {
+
+        List<String> ortlamaninUstundekiGunler=new ArrayList<>();
+
+        for (int i = 0; i < gunlukKazanclar.size(); i++) {
+            if (ortalama < gunlukKazanclar.get(i)) {
+                ortlamaninUstundekiGunler.add(gunler.get(i));
+
+            }
+        }
+        return ortlamaninUstundekiGunler.toString();
+
 
 
         }
 
-
-        return ortalamaninAltindaKazancGünleri;
     }
 
-    }
+
+
+
+
+
+    
+    
 
 
 
