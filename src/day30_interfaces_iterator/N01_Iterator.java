@@ -1,12 +1,16 @@
 package day30_interfaces_iterator;
 
-import java.util.ArrayList;
+import                            java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class N01_Iterator {
 
     public static void main(String[] args) {
+        /*
+        Iterator ,index kullanmadan collection elementleri uzerinde gezinmemizi
+         ve elementler uzerinde degisiklik yapmamizi saglar.
+         */
 
         List<Integer> sayilar= new ArrayList<>();
 

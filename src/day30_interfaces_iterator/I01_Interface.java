@@ -22,7 +22,7 @@ public interface I01_Interface {
         yeni eklenen method'u implement etmek zorunda olur.
 
         Java'ya yapilan talepler sonucunda
-        Java8 ile birlikte bu konuda bir istisna getirilmistir
+        Java ile birlikte bu konuda bir istisna getirilmistir
         Eger sonradan eklenen method'un tum eski class'lar tarafindan implement edilme mecburiyeti
         olmasin istiyorsaniz
 
