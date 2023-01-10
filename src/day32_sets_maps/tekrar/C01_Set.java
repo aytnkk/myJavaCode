@@ -1,10 +1,10 @@
-package day32_sets_maps;
-
+package day32_sets_maps.tekrar;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
 public class C01_Set {
     public static void main(String[] args) {
 
@@ -40,3 +40,4 @@ public class C01_Set {
         System.out.println(karisikSet.size()); // 6
     }
 }
+

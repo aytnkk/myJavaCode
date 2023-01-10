@@ -46,7 +46,7 @@ public class C02_LinkedList {
         System.out.println(harfler.removeAll(karakterler)); // true
         System.out.println(harfler); // []
 
-        System.out.println(karakterler.subList(1, 3)); // [#, M]
+        System.out.println(karakterler.subList(1, 3)); // [#, M] // substring gibi kullanilir
 
         System.out.println(karakterler); // [*, #, M, 9]
 

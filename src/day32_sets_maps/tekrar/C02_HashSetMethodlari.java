@@ -1,7 +1,8 @@
-package day32_sets_maps;
+package day32_sets_maps.tekrar;
 
 import java.util.HashSet;
 import java.util.Set;
+
 public class C02_HashSetMethodlari {
     public static void main(String[] args) {
 
