@@ -6,10 +6,10 @@ public class C02_Constructor {
     public static void main(String[] args) {
         /*
             Bir obje olusturulurken
-            istedigimiz ozellikleri direk atayabilirsek
+            istedigimiz ozellikleri direkt atayabilirsek
             sonradan tekrar bir atama islemi yapmama gerek kalmaz
             bu durumda atamayi tek tek bizim yapmamiz yerine
-            constructor'in atama yapmasini istemeliyiz
+            constructor'in atama yapmasini istemeliyiz.
             atama yapmak icin constructor'a parametre gondermeliyiz
          */
         karesiniYazdir(5); // 25

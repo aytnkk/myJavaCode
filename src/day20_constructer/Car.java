@@ -1,15 +1,19 @@
 package day20_constructer;
-public class Car {
+public class Car { // class ile consturctorun ismi ayni olmalidir
     /*
         Bir class'dan olusturulabilecek objelerin ozelliklerini
         variable veya method'larla belirleyebiliriz
      */
-    String marka = "Marka Belirtilmemis";
+    String marka = "Marka Belirtilmemis"; // bunlar instance degerler
     String model = "Model belirtilmemis";
     int yil=1900;
     int km;
     String renk="Renk secilmedi";
+
     public Car(String marka, String model, int yil) {
+        //Parametre isimleri ile instance variable isimleri ayni olursa
+      //  atamalari direkt yapmak istedigimizde scope problemi yasariz.
+        // bu yuzden java instanse mi yoksa parametre  mi diye ayird etmek icin basina this koyariz.
         this.marka=marka;
         this.model=model;
         this.yil=yil;
@@ -58,7 +62,7 @@ public class Car {
         this.yil=yil;
      */
     @Override
-    public String toString() {
+    public String toString() { //// code generate-tostring
         return "Car{" +
                 "marka='" + marka + '\'' +
                 "\n, model='" + model + '\'' +

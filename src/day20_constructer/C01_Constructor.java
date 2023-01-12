@@ -5,7 +5,7 @@ import day19_arraylist_forEachLoop.Toyota;
 public class C01_Constructor {
     public static void main(String[] args) {
 
-        Car car1= new Car();
+        Car car1= new Car(); //obje olusturduk
         Toyota toyota=new Toyota();
         System.out.println(car1);
 
@@ -22,6 +22,8 @@ public class C01_Constructor {
             , km=0
             , renk='Renk secilmedi'}
          */
+
+        //istedgimiz variableleri atayabiliriz
         car1.marka="Audi";
         car1.model="A4";
         car1.yil=2020;
