@@ -11,8 +11,10 @@ public class C01_Method {
 
         String str= "Java'da yolu yariladik";
         str.isEmpty(); // boolean sonuc dondu ama kullanmadik
-        // method'un dondurdugu sonucu kullanmak isterseniz
-        // ya yazdirirsiniz
+        /*method'un dondurdugu sonucu kullanmak isterseniz
+        ya yazdirirsiniz
+
+         */
 
 
         System.out.println(str.isBlank()); // false

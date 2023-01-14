@@ -10,6 +10,7 @@ public class C01_DoWhileLoop {
 
         int girilenSayi=10;
         int toplam=0;
+
         Scanner scan=new Scanner(System.in);
 
         while (girilenSayi!=0){

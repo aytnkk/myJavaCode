@@ -13,12 +13,11 @@ public class C04_Faktoryel {
         } else {
             System.out.println("Girilen sayi 15'den kucuk pozitif tamsayi olmalidir");
         }
-
-
     }
-
     public static void faktoryelYazdir(int sayi) { // int input da diyebiliriz
+
         int faktoryelSonucu = 1;
+
         for (int i = sayi; i >= 1; i--) {
             faktoryelSonucu *= i; // her loop'da gelen sayiyi onceki deger ile carpalim
         }

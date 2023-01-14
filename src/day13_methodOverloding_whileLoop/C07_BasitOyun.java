@@ -16,15 +16,21 @@ public class C07_BasitOyun {
             yazdirin
          */
         Random rnd= new Random();
+
         int tutulanSayi= rnd.nextInt(100);
+
         int sayac=1;
         int tahmin=0;
+
         Scanner scan = new Scanner(System.in);
+
         while(tutulanSayi != tahmin){
             System.out.println("Lutfen bir tahmin giriniz");
             tahmin= scan.nextInt();
+
             if (tutulanSayi==tahmin){ // sayiyi bulduysa
                 System.out.println(sayac +" tahmin ile tuttugum sayiyi buldun");
+
                 if (sayac<=3){
                     System.out.println("Vaowww");
                 } else if (sayac<=8) {

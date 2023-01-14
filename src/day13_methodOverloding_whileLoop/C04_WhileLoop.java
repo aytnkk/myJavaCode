@@ -16,6 +16,7 @@ public class C04_WhileLoop {
         // ayni soruyu whileloop ile yapalim
 
         int sayi=10;
+
         while (sayi<100){
             if (sayi%7==0){
                 System.out.print(sayi+ " ");

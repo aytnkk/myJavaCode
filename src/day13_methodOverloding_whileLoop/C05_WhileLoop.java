@@ -9,9 +9,6 @@ public class C05_WhileLoop {
         // girilen sayilarin toplami 500 olur veya gecerse
         // "Bu kadar sayi yeter" deyip toplami yazdirin
 
-
-
-
         // bu soruyu illa forloop ile yapalim dersek
         // adim sayisini tahmin edip biraz abartabiliriz
 

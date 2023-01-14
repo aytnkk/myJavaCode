@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class C06_sifrekontrolu {
     public static void main(String[] args) {
+
         // kulanıcıdan bir şifre isteyip aşağıdaki şartları kontrol edin
         //ve düzetmesi gereken tüm eksikleri söyleyin.
-        //
+
 
         // ilk harf küçük olmalı
         // son karakter rakam olmalı
@@ -19,13 +20,17 @@ public class C06_sifrekontrolu {
 
         Scanner scan=new Scanner(System.in);
         boolean tekrersifreiste=true;
+
         String sifre="";
+
         while (tekrersifreiste){
             System.out.println("lütfen sifrenizi giriniz");
             sifre=scan.nextLine();
+
             if (sifrekontrolet(sifre))// sifre kontrolü true dönerse
             {
                 System.out.println("başarı ile oluşturuldu");
+
                 //break;ya da alttaki
                 tekrersifreiste=false;
             }
@@ -36,7 +41,7 @@ public class C06_sifrekontrolu {
         int flag = 0;
 
         // ilk harf küçük olmalı
-        if (sifre.charAt(0) < 'a' || sifre.charAt(0) > 'z') {
+        if ((sifre.charAt(0) < 'a' || sifre.charAt(0) > 'z')) {
             System.out.println("ilk harf kücük olmalı");
             flag++;
         }

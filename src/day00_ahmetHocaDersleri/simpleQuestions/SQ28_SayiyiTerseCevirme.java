@@ -24,9 +24,13 @@ public class SQ28_SayiyiTerseCevirme {
         System.out.print(tersSayi);
 
 
-        System.out.println("=============================== ");
+        System.out.println("======================= ");
 
-        while (sayi != 0) {
+
+
+
+
+            while (sayi != 0) {
                 tersSayi = tersSayi * 10 +( sayi % 10);
                 sayi /= 10;
 
