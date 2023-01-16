@@ -34,6 +34,7 @@ public class C08_NestedForLooop {
             System.out.print(4*i + " ");
         }
         System.out.println("");
+
         // Nested loop ile yapalim
         for (int i = 1; i <=4 ; i++) { // outer loop denir ve i'nin carpilacagi sayiyi kontrol edecek
             for (int j = 1; j <=4 ; j++) { // inner loop denir ve onceki ornekteki i degiskenini kontrol eder
