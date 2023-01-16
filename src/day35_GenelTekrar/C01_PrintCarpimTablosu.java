@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C01_PrintCarpimTablosu {
     public static void main(String[] args) {
-        // kullanicidan bir rakam alin ve caarpim taplosu olustrun
+        // kullanicidan bir rakam alin ve carpim taplosu olustrun
 
         Scanner scan=new Scanner(System.in);
 

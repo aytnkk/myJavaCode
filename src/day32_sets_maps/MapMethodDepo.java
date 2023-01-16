@@ -281,7 +281,7 @@ public class MapMethodDepo {
         return ogrenciMap;
     }
 
-    public static void sinifaSiraliListeYazdir(Map<Integer, String> ogrenciMap) {
+    public static void sinifSiraliListeYazdir(Map<Integer, String> ogrenciMap) {
         //101=Ali-Can-11-H-MF
         // su hale getirmeliyiz= 11 H Ali Can 101
         // tum ogrenci listesini
@@ -312,7 +312,8 @@ public class MapMethodDepo {
         System.out.println("=====================");
 
         for (String each : siraliIgrenciSeti) {
-            System.out.println(each);
+             System.out.println(each); // 10 H Ayse Can 104
+
 
         }
     }
@@ -345,7 +346,19 @@ public class MapMethodDepo {
         System.out.println("================");
         for (String each : isimSoyisimsiraliSet
         ) {
-            System.out.println(each);
+         //  System.out.println(each); // Ali  Can  101  11  H  MF
+
+
+            String[] duzenliYazdirArr=each.split(" ");//
+
+            String sinif=duzenliYazdirArr[3];
+            String sube=duzenliYazdirArr[4];
+            String isim=duzenliYazdirArr[0];
+            String soyisim=duzenliYazdirArr[1];
+            String no=duzenliYazdirArr[2];
+            String bolum=duzenliYazdirArr[5];
+
+            System.out.printf("%-6.6s %-6.6S %3s  %2s    %s    %s%n",isim,soyisim,no,sinif,sube,bolum);
         }
     }
 }

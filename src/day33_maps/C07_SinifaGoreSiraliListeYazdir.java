@@ -13,7 +13,19 @@ public class C07_SinifaGoreSiraliListeYazdir {
 
         Map<Integer,String> ogrenciMap= MapMethodDepo.ogrenciMapOlustur();
 
-        MapMethodDepo.sinifaSiraliListeYazdir(ogrenciMap);
+        MapMethodDepo.sinifSiraliListeYazdir(ogrenciMap);
+
+        /* sinif sube no isim soyisim
+                =====================
+        10  H   Ayse    Can   104
+        10  K   Sevgi   Can   106
+        10  K   Veli    Cem   102
+        11  H   Ali     Can   101
+        11  K   Ali     Cem   103
+        11  M   Sevgi   Cem   105
+
+         */
+
 
     }
 }
