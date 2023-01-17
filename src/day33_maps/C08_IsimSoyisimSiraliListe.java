@@ -26,8 +26,6 @@ public class C08_IsimSoyisimSiraliListe {
        Sevgi  CEM    105  11    M    TM
        Veli   CEM    102  10    K    TM
 
-
-
          */
     }
 }
