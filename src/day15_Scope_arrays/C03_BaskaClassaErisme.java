@@ -20,7 +20,7 @@ public class C03_BaskaClassaErisme {
 
         System.out.println(C01_Hastane.hastaneismi);// Yildiz Hastanesi
 
-        C01_Hastane per1=new C01_Hastane();
+        C01_Hastane per1=new C01_Hastane();  // obje
 
         System.out.println(per1.personelAdresi);// null
         System.out.println(per1.hastaneismi);// Yildiz

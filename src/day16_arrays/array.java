@@ -2,6 +2,7 @@ package day16_arrays;
 
 public class array {
     public static void main(String[] args) {
+
         // bir array'in icinde isimlerin kac defa kullanildigini yazdirin
 
         String[] isimler = {"hasan", "huseyin", "ahmet", "mehmet","ahmet" ,"ahmet"};

@@ -7,7 +7,9 @@ public class C04_Soru {
         // istenen bir harfi iceren kelimeleri silip, yerine null yazdirin
 
         String[] isimler= {"Huseyin","Yusuf","Mehmet","Akile","Said"};
+
         String silinecekHarf= "u";
+
         for (int i = 0; i < isimler.length ; i++) {
             if (isimler[i].contains(silinecekHarf)){
                 isimler[i]=null;

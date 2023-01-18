@@ -29,7 +29,7 @@ public class C01_Hastane {
                   kural 4- classta olusturulan instance variablleler  ilk deger atamasini yapar.
                   yani bir obje ilk olusturuldugunda otomatik olarak instance variable'a atanan degeri alir.
                   deger atanmamissa default degerleri alir.
-                  obje olusturulduktan sinra obje uzerinden yapilan atamalar class leveldaki
+                  obje olusturulduktan sonra obje uzerinden yapilan atamalar class leveldaki
                   instance variableye degil, java tarafindan olusturulup
                     objeye yapistirilan kopya variable'a yapilir
          Kural5- static variable'lar tum objeler icin ortaktir.

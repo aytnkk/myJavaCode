@@ -2,8 +2,9 @@ package day16_arrays;
 
 public class C06_Soru {
     public static void main(String[] args) {
+
         // bir marketin fiyatlarini tutan bir array var
-        // bu marketteki en yuksek ve en dusuk fiyatlari yazdiran bir method olusturun
+        // bu marketteki en yuksek ve en dusuk fiyatlari yazdiran bir method olusturun.
 
 
         double[] fiyatlar={23,34.5,42.1,5.7,3.4,23.5};

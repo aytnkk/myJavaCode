@@ -22,6 +22,7 @@ public class C04_Compute {
             }
         }
         System.out.println(harfSayilari); // {A=3, B=1, C=1, N=2}
+
         // 2.yontem compute
         Map<String,Integer> harfSayilari2= new TreeMap<>();
         for (int i = 0; i < arr.length ; i++) {

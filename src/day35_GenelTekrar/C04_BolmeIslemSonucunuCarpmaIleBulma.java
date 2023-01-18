@@ -69,6 +69,9 @@ public class C04_BolmeIslemSonucunuCarpmaIleBulma {
             bolumSonucu++;
 
         }
+        if (bolumSonucu*bolenSayi==bolunecekSayi){
+
+        }
         System.out.println("Bolme isleminin sonucu : " + bolumSonucu*sonucIsareti);
     }
 }

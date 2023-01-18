@@ -9,7 +9,7 @@ public class C07_Soru {
         int arananSayi=2;
 
 
-        elemanBul(arr,arananSayi);//Aradiginiz 2array'de 4 adet kullanilmistir
+        elemanBul(arr,arananSayi);//Aradiginiz 2 sayisi array'de 4 adet kullanilmistir
         elemanBul(arr,8);//Aranan sayi array'de yok
         elemanBul(arr,5);//Aradiginiz 5array'de 2 adet kullanilmistir
 

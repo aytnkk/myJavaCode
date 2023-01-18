@@ -5,6 +5,7 @@ public class C04_Arrays {
 
         int [] arr={1,2,3};// bu sekilde yazildiginda kac element yazildiysa onu length olarak kabul eder
         int arr2[]={4,5,6,7,8,9};
+
         String[] harfler=new String[4000];
 
 
