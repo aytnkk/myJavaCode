@@ -21,9 +21,13 @@ public class C01_ArrayList {
         harfler.add("B");
         harfler.add("K");
         System.out.println(harfler); // [A, B, K]
+
         harfler.add(1,"C");
-        System.out.println(harfler); // [A, C, B, K] B ile K arasina D ekleyelim
+        System.out.println(harfler); // [A, C, B, K]
+
+        // B ile K arasina D ekleyelim
         harfler.add(3,"D"); // [A, C, B, D, K]
+
         List<String> karakterler= new ArrayList<>();
         karakterler.add("*");
         karakterler.add("#");

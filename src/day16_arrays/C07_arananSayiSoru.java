@@ -1,6 +1,6 @@
 package day16_arrays;
 
-public class C07_Soru {
+public class C07_arananSayiSoru {
     public static void main(String[] args) {
 
 

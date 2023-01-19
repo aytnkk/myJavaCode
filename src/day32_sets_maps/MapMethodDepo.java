@@ -39,8 +39,8 @@ public class MapMethodDepo {
         for (String eachValue : valuesCollection
         ) {
             String[] valueArr = eachValue.split("-");
-            String valueedekiIsim = valueArr[0];
-            if (valueedekiIsim.equalsIgnoreCase(isim)) {
+            String valuedekiIsim = valueArr[0];
+            if (valuedekiIsim.equalsIgnoreCase(isim)) {
                 return true;
             }
         }

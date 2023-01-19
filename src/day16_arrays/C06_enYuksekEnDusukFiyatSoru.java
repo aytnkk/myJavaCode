@@ -1,6 +1,6 @@
 package day16_arrays;
 
-public class C06_Soru {
+public class C06_enYuksekEnDusukFiyatSoru {
     public static void main(String[] args) {
 
         // bir marketin fiyatlarini tutan bir array var

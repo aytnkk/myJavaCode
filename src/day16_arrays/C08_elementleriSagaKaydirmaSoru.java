@@ -2,7 +2,7 @@ package day16_arrays;
 
 import java.util.Arrays;
 
-public class C08_Soru {
+public class C08_elementleriSagaKaydirmaSoru {
     public static void main(String[] args) {
 
         /*

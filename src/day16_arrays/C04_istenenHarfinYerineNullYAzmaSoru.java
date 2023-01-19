@@ -1,6 +1,6 @@
 package day16_arrays;
 import java.util.Arrays;
-public class C04_Soru {
+public class C04_istenenHarfinYerineNullYAzmaSoru {
     public static void main(String[] args) {
 
         // Verilen bir String array'de

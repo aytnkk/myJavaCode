@@ -18,7 +18,7 @@ public class C09_ArrayeYeniDegerAtama {
         // new keyword'u ile olusturdugumuz yeni arra'e yonlendirir
 
         // eski elementleri de korumak istersek ne yapmaliyiz?
-        // a zaman atama yaomadan once yeni arrray'i hazirlamaliyiz
+        // a zaman atama yapmadan once yeni arrray'i hazirlamaliyiz
         // bunun icin bos bir yeni array olusturup
         // eski arraydeki elemnetleri yeni arraye tasiyip
         //sonra atamayi yapabiliriz

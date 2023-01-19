@@ -1,6 +1,6 @@
 package day16_arrays;
 
-public class C05_Soru {
+public class C05_pozitifSayilariToplamaSoru {
     public static void main(String[] args) {
 
         // Soru 2- Verilen bir array’deki pozitif tamsayilari toplayip ,

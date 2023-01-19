@@ -21,7 +21,7 @@ public class C01_binarySearch {
 
         /*
         olmayan bir elementi binarySearch ile aratirsaniz
-        once listede olsaydi , kacinci siraaa olurdu sorusunun cevabini bulur
+        once listede olsaydi , kacinci sirada olurdu sorusunun cevabini bulur
         olmadigini belirtmek icin basina - koyar
 
          */
