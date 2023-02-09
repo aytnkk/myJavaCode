@@ -9,8 +9,8 @@ public class C03_StringBuilder {
         System.out.println(sb1 == sb2); // false
         System.out.println(sb1.equals(sb2)); // false
 
-        // StringBuilder metin esitligini sorgulamamk icin equals() kullanmaz
-        System.out.println(sb1.compareTo(sb2)); // 0
+        // StringBuilder metin esitligini sorgulamak icin equals() kullanmaz
+        System.out.println(sb1.compareTo(sb2)); // 0 ,  esitse 0 degerini doner
 
         StringBuilder sb3 = new StringBuilder("Hava");
         System.out.println(sb1.compareTo(sb3)); // 2

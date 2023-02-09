@@ -13,6 +13,7 @@ public class SQ5_kareninAlaniCevresi {
      Ipuclari:
      Google yaparak karenin alaninin ve cevresinin nasil bulundugunu ögrenin :-)
          */
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen karenin kenar uzunlugunu   giriniz");
 

@@ -27,7 +27,7 @@ public class C08_Constructor {
         bu isleme de initalize (ilk deger atamasi) denir.
 
         new keyword ile obje olusturulurken esitligin saginda new ile birlikte classIsmi() yazilir.
-        iste bun class ismi()  o class'in constructor'idir  .
+        iste bu class ismi()  o class'in constructor'idir  .
         Constructor, bugune kadar gordugumuz yapilardan farklidir.
 
          Constructor, bir obje olusturmak istedigimizde devreye girer

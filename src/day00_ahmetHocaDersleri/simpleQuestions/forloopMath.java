@@ -6,6 +6,8 @@ public class forloopMath {
         // forloop kullanarak verilen sayii´nin karakokunu consola yazdirin
 
         int sayi=36;
+        System.out.println(Math.pow(6,3));
+        System.out.println(Math.sqrt(36));
       //  System.out.println(Math.pow(7,2)); 49.0  bu yontem matematiksel islemleri yapiyor
         // System.out.println(Math.sqrt(7));// 49.0  bu da karekok aliyor
 

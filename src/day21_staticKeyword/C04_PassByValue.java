@@ -16,6 +16,7 @@ public class C04_PassByValue {
 
     }
     public static void indirimYap10(int fiyat){
+
         fiyat=fiyat*90/100;
         //fiyat*=0.9;
         System.out.println("%10 indirimli fiyat:"+ fiyat);
@@ -25,6 +26,7 @@ public class C04_PassByValue {
         System.out.println("%20 indirimli fiyat :" +fiyat);
     }
     public static void indirimYap30(int fiyat){
+
         fiyat=fiyat*70/100;
 
         System.out.println("%30 indirimli fiyat  :"+ fiyat);

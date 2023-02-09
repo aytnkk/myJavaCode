@@ -6,11 +6,15 @@ public class constructerSaorusu {
 
     /*
     Constructor Sorusu-
-​
+
    1. Aşama: Başlangıçta İlk Oyuncuya oyunu başlatmak için bir kelime girmesini iste.
-   2. Aşama: Sonra oyuncuyu degiştir ve ikinci oyuncuya geç. Yeni oyuncuya verilen kelimenin geçerli olup olmadıgını sor
-        2.1) Eğer yeni oyuncu verilen kelimeyi kabul ederse : kelimeyi yazan oyuncuya puan olarak kelimedeki harf sayısını ekleyin ve 3. adıma gidin
-        2.2) Eğer yeni oyuncu verilen kelimeyi	geçerli olarak kabul etmesse "Geçersiz kelime, oyuncu X(Mevcut oyuncu) oyunu kazandı" yazıp oyunu bitirin.
+   2. Aşama: Sonra oyuncuyu degiştir ve ikinci oyuncuya geç.
+   Yeni oyuncuya verilen kelimenin geçerli olup olmadıgını sor
+    2.1) Eğer yeni oyuncu verilen kelimeyi kabul ederse :
+     kelimeyi yazan oyuncuya puan olarak kelimedeki harf sayısını ekleyin
+    ve 3. adıma gidin
+    2.2) Eğer yeni oyuncu verilen kelimeyi	geçerli olarak kabul etmesse
+    "Geçersiz kelime, oyuncu X(Mevcut oyuncu) oyunu kazandı" yazıp oyunu bitirin.
    3. Aşama: Kullanıcılara oyuna devam etmek isteyip istemediklerini sor: Eğer devam etmek isterlerse:
      3.1) Kullanıcıdan kelimeye eklemek için bir harf isteyin
      3.2) Ve kullanıcıya hangi tarafa eklemek istedigini sorun (Başa veya Sona)
@@ -18,7 +22,7 @@ public class constructerSaorusu {
    Puanları ve kazananı ekrana yazdırın
      */
     static  Scanner scan=new Scanner(System.in);
-    int oyunuc1Puan=0;
+    int oyuncu1Puan=0;
     int oyuncu2Puan=0;
 
     void Constructor2(){
@@ -35,7 +39,7 @@ public class constructerSaorusu {
         char oyuncu2cevap=scan.next().charAt(0);
         do {
             if (oyuncu2cevap=='E'||oyuncu2cevap=='e'){
-                oyunuc1Puan+=kelime.length();
+                oyuncu1Puan+=kelime.length();
 
                 if (oyunaDevam()=='D'){
                     System.out.println("oyuncu1 kelimeye eklemek icn bir harf girin");
@@ -61,8 +65,8 @@ public class constructerSaorusu {
                 System.out.println("Gecersiz kelime oyuncu2 oyunu kazandi");
             }
         }while (oyunaDevam()=='D');
-        if (oyunuc1Puan>oyuncu2Puan){
-            System.out.println("oyunun kazanani oyuncu 1, oyuncu puani: "+oyunuc1Puan);
+        if (oyuncu1Puan>oyuncu2Puan){
+            System.out.println("oyunun kazanani oyuncu 1, oyuncu puani: "+oyuncu1Puan);
         }else {
             System.out.println("oyunun kazanani oyuncu 2, oyuncu puani: "+oyuncu2Puan);
         }

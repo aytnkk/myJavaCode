@@ -1,5 +1,5 @@
 package day20_constructer;
-public class Car { // class ile consturctorun ismi ayni olmalidir
+public class Car { // class ile constuctorun ismi ayni olmalidir
     /*
         Bir class'dan olusturulabilecek objelerin ozelliklerini
         variable veya method'larla belirleyebiliriz

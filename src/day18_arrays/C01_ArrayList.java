@@ -33,6 +33,7 @@ public class C01_ArrayList {
         karakterler.add("#");
         harfler.addAll(karakterler);
         System.out.println(harfler); // [A, C, B, D, K, *, #]
+
         harfler.addAll(2,karakterler);
         System.out.println(harfler); // [A, C, *, #, B, D, K, *, #]
     }

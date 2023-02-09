@@ -11,7 +11,7 @@ public class C01_Pre_PostIncrement {
         sayi +=3;
         sayi ++;
         sayi ++;
-        sayi ++;
+
 
         System.out.println(sayi);//29
 

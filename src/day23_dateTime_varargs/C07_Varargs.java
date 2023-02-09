@@ -1,5 +1,5 @@
 package day23_dateTime_varargs;
-public class C07_Varargs {
+public class  C07_Varargs {
     public static void main(String[] args) {
 
         // Kac tane string argument yazilirsa yazilsin

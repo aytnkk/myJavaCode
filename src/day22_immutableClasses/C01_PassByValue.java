@@ -18,8 +18,10 @@ public class C01_PassByValue {
         sayilar.add(45);
 
         System.out.println(sayilar); // [10, 34, 45]
+
         elemanlariDegistir(sayilar);
         System.out.println("1.method call'dan sonra sayilar : " + sayilar); // [25, 54, 67]
+
         yeniListAta(sayilar);
         System.out.println("2.method call'dan sonra sayilar : " + sayilar); // [25, 54, 67]
 
@@ -45,6 +47,7 @@ public class C01_PassByValue {
     }
     public static void yeniListAta(List<Integer> sayilar){
         sayilar= new ArrayList<>();
+
         sayilar.add(34);
         sayilar.add(98);
         sayilar.add(11);

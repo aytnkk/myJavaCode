@@ -10,7 +10,9 @@ public class C06_soru {
 
             // Verilen bir array'deki tekrar eden elementleri silip
             // array'i unique degerlerden olusan bir array haline getirin
+
             int[] arr = {4,3,6,7,3,5,3,6,7,3,5,4,6,4,7,7,7,5};
+
             List<Integer> benzersizElementlerList=new ArrayList<>();
 
             // array'deki tum elementleri alip
@@ -23,6 +25,7 @@ public class C06_soru {
                 }
             }
             System.out.println(benzersizElementlerList);// [4, 3, 6, 7, 5]
+
             // soruda bu degerleri arr'ye atamamiz isteniyor
             arr= new int[benzersizElementlerList.size()]; // [0, 0, 0, 0, 0]
             for (int i = 0; i < arr.length ; i++) {

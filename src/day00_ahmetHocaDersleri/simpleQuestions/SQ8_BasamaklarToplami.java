@@ -23,7 +23,9 @@ public class SQ8_BasamaklarToplami {
 
         toplam+=sayi%10;
         sayi=sayi/10;
+
         toplam+=sayi;
+
         System.out.println("Verilen sayinin rakamlari toplami "		+ toplam + "'dur.");
     }
 }

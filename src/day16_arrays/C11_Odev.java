@@ -1,5 +1,7 @@
 package day16_arrays;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class C11_Odev {
@@ -9,18 +11,28 @@ public class C11_Odev {
         // kullanici yeni deger verdigi muddetce C10'daki hazir methodu kulllanarak eklemeye devam edin
         // kullanici Q'ye bastiginda ,array'in son halini dondurun
 
-       String[] isimler={"Ali","Veli","Cem"};
-
-       Scanner scan=new Scanner(System.in);
-        System.out.println("lutfen yeni isimler giriniz");
-       String yeniIsimler=scan.nextLine();
+         List<String> isimlerListesi=isimlerListesiOlustur();
+        System.out.println(isimlerListesi);
 
 
-       String[] arr=new String[0];
+    }
 
-       C10_ArrayeBirElementEkleme.arrayeElementEkleme(arr,yeniIsimler);
+    private static List<String> isimlerListesiOlustur() {
 
+        List<String> isimListesi=new ArrayList<>();
 
+        String eklenenecekisimler="";
+        Scanner scan=new Scanner(System.in);
+
+        while (!eklenenecekisimler.equalsIgnoreCase("q")){
+            System.out.println("lutfen listeye eklemek icin isim girin\nBitirmek icin q'ye basiniz");
+       eklenenecekisimler= scan.nextLine();
+
+       if (!eklenenecekisimler.equalsIgnoreCase("q")){
+           isimListesi.add(eklenenecekisimler);
+       }
+        }
+        return  isimListesi;
 
     }
 }

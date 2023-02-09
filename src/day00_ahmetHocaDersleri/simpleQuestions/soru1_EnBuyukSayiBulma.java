@@ -15,6 +15,7 @@ public class soru1_EnBuyukSayiBulma {
 
        */
 
+        System.out.println();
         int sayi1=9;
         int sayi2=8;
         int sayi3=1;

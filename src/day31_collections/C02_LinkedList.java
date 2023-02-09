@@ -37,7 +37,7 @@ public class C02_LinkedList {
 
         System.out.println(karakterler); // [*, #, M, 9]
 
-        System.out.println(harfler.retainAll(karakterler)); // true
+        System.out.println(harfler.retainAll(karakterler)); // true -- ortak elemanlar disindakileri siler
         System.out.println(harfler); // [M] ortak elementler disindaki herseyi sildi
 
         harfler.addAll(karakterler);

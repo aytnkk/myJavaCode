@@ -19,6 +19,7 @@ public class C04_ForEachLoop {
         // arraydeki cift sayilari olusturacagimiz bir liste tasiyalim
 
         List<Integer> ciftSayilarList=new ArrayList<>();
+
         for (Integer each:arr
              ) {
             if (each%2==0){

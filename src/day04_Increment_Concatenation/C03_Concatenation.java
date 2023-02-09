@@ -20,7 +20,7 @@ public class C03_Concatenation {
         System.out.println(str1+a*b);//""+10*20="200"
         System.out.println(str2+(a+b));//" " +(10+20)=" "+30=" 30"
 
-        //System.out.println(str1*a);   carpi ve eksi uygulanamaz sadece toplama uygulanabilir
+        //System.out.println(str1*a);   carpi ve eksi uygulanamaz sadece toplamaya uygulanabilir
 
 
 

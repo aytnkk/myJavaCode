@@ -13,6 +13,7 @@ public class C10_Soru {
         System.out.println(isimlerListesi);
     }
     public static List<String> isimListesiOlustur(){
+
         List<String> isimListesi= new ArrayList<>();
         String girilenIsim="";
         Scanner scan = new Scanner(System.in);

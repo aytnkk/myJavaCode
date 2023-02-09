@@ -7,7 +7,7 @@ public class C03_ForEachLoop {
         Eger coklu element iceren bir yapidaki tum elementlere
         ayni islemi yapmak istiyorsak
         indexten bagimsiz olarak foor each loop kullanabilirsiniz
-        for eacnh loop ta uc seyi belitmemiz gerekir
+        for each loop ta uc seyi belitmemiz gerekir
         1-getirilecek elementlerin data turu
         2-getirilecek elemente verilecek isim(genelde each / w kullanilir
         3-nereden getirilecegi

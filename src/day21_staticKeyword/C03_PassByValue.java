@@ -22,6 +22,6 @@ public class C03_PassByValue {
     }
     public static void method2(int s){
         s=s*s;
-        System.out.println(s);
+        System.out.println(s); //25
     }
 }

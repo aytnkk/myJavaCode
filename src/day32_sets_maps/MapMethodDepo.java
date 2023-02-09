@@ -289,7 +289,9 @@ public class MapMethodDepo {
         // kucukten dogal sirali olarak yazdiran bir method olusturun
 
         Set<Map.Entry<Integer, String>> entrySeti = ogrenciMap.entrySet();
+
         Set<String> siraliIgrenciSeti = new TreeSet<>();
+
         for (Map.Entry<Integer, String> eachEntry : entrySeti) { // 101=Ali-Can-11-H-MF
 
             String entryValue = eachEntry.getValue(); // Ali-Can-11-H-MF

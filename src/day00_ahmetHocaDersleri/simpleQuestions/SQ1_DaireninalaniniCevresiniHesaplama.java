@@ -24,6 +24,7 @@ public class SQ1_DaireninalaniniCevresiniHesaplama {
 
         double daireninCevresi = (2*pi*r);
         double daireninAlani = (pi*r*r);
+
         System.out.println(daireninCevresi);
         System.out.println(daireninAlani);
 

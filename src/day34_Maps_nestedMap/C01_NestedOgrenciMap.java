@@ -48,6 +48,7 @@ public class C01_NestedOgrenciMap {
 
         //103 numarali ogrencinin sinifini 12 yapalim
         Set<Map.Entry<Integer, Map<String, String>>> ogrenciEntrySeti = ogrenciMap.entrySet();
+
         for (Map.Entry<Integer, Map<String, String>>eachOgrenciEntry:ogrenciEntrySeti){
             // once ogrenci value'sini kaydetmeliyiz
 

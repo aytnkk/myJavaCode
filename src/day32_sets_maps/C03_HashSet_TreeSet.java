@@ -13,15 +13,19 @@ public class C03_HashSet_TreeSet {
 
         Random rnd = new Random();
         int sayi;
+
         Set<Integer> hashSet= new HashSet<>();
         Set<Integer> treeSet= new TreeSet<>();
+
         Long hashBaslangic= System.currentTimeMillis();
         for (int i = 0; i <100000 ; i++) {
             sayi= rnd.nextInt(1000000);
             hashSet.add(sayi);
         }
         Long hashBitis= System.currentTimeMillis();
+
         Long treeBaslangic= System.currentTimeMillis();
+
         for (int i = 0; i <100000 ; i++) {
             sayi= rnd.nextInt(1000000);
             treeSet.add(sayi);

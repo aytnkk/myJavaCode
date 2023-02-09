@@ -5,6 +5,7 @@ public class C04_TreeSet {
     public static void main(String[] args) {
 
         Set<Integer> sirali= new TreeSet<>();
+
         sirali.add(13);
         sirali.add(34);
         sirali.add(1);

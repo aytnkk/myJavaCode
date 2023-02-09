@@ -7,7 +7,7 @@ public class FChildOfPersonel extends APersonel {
 
         FChildOfPersonel obj1=new FChildOfPersonel();
 
-        System.out.println(obj1.isim);
+        System.out.println(obj1.isim);//Isim atanmadi
 
     }
 }

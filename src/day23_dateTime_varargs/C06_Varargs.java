@@ -3,7 +3,7 @@ public class C06_Varargs {
     public static void main(String[] args) {
 
         // Oyle bir method olusturalim ki
-        // kactane argument yazarsam yazayim
+        // kac tane argument yazarsam yazayim
         // argumentlerin toplamini versin
 
         topla(5,6); //11

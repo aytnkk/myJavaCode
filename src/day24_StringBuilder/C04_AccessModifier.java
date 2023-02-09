@@ -2,7 +2,7 @@ package day24_StringBuilder;
 public class C04_AccessModifier {
 
     String str;
-    // Access modifier'i gozlerimizle goremiyorsa
+    // Access modifier'i gozlerimizle goremiyorsak
     // default access modifier var demektir
     // Bu class'da default constructor var
     // str'in degeri null (default deger)
